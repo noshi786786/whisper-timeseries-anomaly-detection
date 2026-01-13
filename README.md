@@ -3,6 +3,11 @@
 ## Overview
 This project provides a representative implementation of adapting a pretrained Whisper audio transformer for anomaly detection in time-series data.
 
+## Quickstart (Demo)
+pip install -r requirements.txt
+python -m src.train
+python -m src.evaluate
+
 ## Motivation
 Although Whisper was originally designed for speech recognition, its learned representations can be repurposed for non-speech time-series modeling tasks.
 
