@@ -13,8 +13,8 @@ from pathlib import Path
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from data import DatasetConfig, generate_synthetic_timeseries
-from model import build_baseline_classifier, simple_featurize
+from src.data import DatasetConfig, generate_synthetic_timeseries
+from src.model import build_baseline_classifier, simple_featurize
 
 
 def main() -> None:
