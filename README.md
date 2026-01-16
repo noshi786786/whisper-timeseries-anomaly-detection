@@ -25,6 +25,14 @@ Although Whisper was originally designed for speech recognition, its learned rep
 - Anomaly detection evaluated using precision-based metrics
 - Regression performance evaluated using mean absolute error (MAE)
 
+## Inference Benchmark (Demo)
+
+This project includes a simple benchmark comparing naive per-sample inference
+with batched inference. Even at demo scale, batching significantly reduces
+overhead and improves throughput.
+
+![Inference Benchmark](results/inference_benchmark.png)
+
 ## Results
 - Demonstrated inference-time optimizations yielding up to 3× speedup in representative settings
 - Improved regression accuracy relative to baseline embedding models
