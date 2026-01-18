@@ -26,10 +26,8 @@ Although Whisper was originally designed for speech recognition, its learned rep
 - Regression performance evaluated using mean absolute error (MAE)
 
 ## Inference Benchmark (Demo)
-
-This project includes a simple benchmark comparing naive per-sample inference
-with batched inference. Even at demo scale, batching significantly reduces
-overhead and improves throughput.
+This project includes a simple benchmark comparing naive per-sample inference with batched inference.
+The exact speedup depends on environment and workload, but batching/caching is a key principle for improving throughput in production inference pipelines.
 
 ![Inference Benchmark](results/inference_benchmark.png)
 
